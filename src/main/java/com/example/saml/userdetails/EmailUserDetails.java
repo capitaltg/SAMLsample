@@ -10,7 +10,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.saml.SAMLCredential;
 import org.springframework.security.saml.userdetails.SAMLUserDetailsService;
 
-// April 8
 public class EmailUserDetails implements SAMLUserDetailsService {
 	AssertionMarshaller marshaller = new AssertionMarshaller();
 
