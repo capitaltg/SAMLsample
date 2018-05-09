@@ -182,15 +182,15 @@
 		SAML messages -->
 	<bean id="samlAuthenticationProvider"
 		class="org.springframework.security.saml.SAMLAuthenticationProvider">
-		<!-- START: Added on April 8 for ADMail attribute -->
+		<!-- CUSTOMIZE: Add attribute mapping for ADMail attribute -->
 		<property name="forcePrincipalAsString" value="false" />
 		<property name="userDetails" ref="emailUserDetails" />
-		<!-- END: Added on April 8 -->
+		<!-- END of customization-->
 	</bean>
 
-	<!-- START: Added on April 8 for ADMail Attribute -->
+	<!-- CUSTOMIZE add bean defintion for ADMail attribute mapping -->
 	<bean id="emailUserDetails" class="com.example.saml.userdetails.EmailUserDetails" />
-	<!-- END: Added on April 8 for ADMail Attribute -->
+	<!-- END of customization -->
 
 	<!-- Provider of default SAML Context -->
 	<bean id="contextProvider"
