@@ -9,6 +9,10 @@ Testing instructions:
 4. Rename the downloaded spring_saml_metadata.xml file to a unique/random name and upload it to . http://www.testshib.org/register.html  
 5. Go to http://www.example.com:8080/SAMLsample/ and click "Click Here to Login" (http://www.example.com:8080/SAMLsample/saml/login)  
 6. Login using one of the sample names.  
+
+Note: For a successful test, you will need to remove the ADMail attribute mapping, since TestShib does not return that attribute:  
+https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L185-L188  
+https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L191-L193  
   
 **Files**
   
