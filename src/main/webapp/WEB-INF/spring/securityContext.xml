@@ -193,8 +193,6 @@
 	<!-- END: Added on April 8 for ADMail Attribute -->
 
 	<!-- Provider of default SAML Context -->
-	<!-- <bean id="contextProvider" class="org.springframework.security.saml.context.SAMLContextProviderImpl" 
-		/> -->
 	<bean id="contextProvider"
 		class="org.springframework.security.saml.context.SAMLContextProviderLB">
 		<property name="scheme" value="http" />
