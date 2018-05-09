@@ -17,7 +17,7 @@ public class EmailUserDetails implements SAMLUserDetailsService {
 		// This works to pull the uid attribute value from http://www.testshib.org/
 		// Given the raw value of
 		// FriendlyName="uid" Name="urn:oid:0.9.2342.19200300.100.1.1" ...
-		// samlCredential.getAttributeAsString("urn:oid:0.9.2342.19200300.100.1.1");
+		// String attrValue = samlCredential.getAttributeAsString("urn:oid:0.9.2342.19200300.100.1.1");
 		String attrValue = samlCredential.getAttributeAsString("ADMail");
 		if (attrValue == null) {
 			throw new UsernameNotFoundException("ADMail not found from assertion");
