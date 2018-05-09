@@ -41,7 +41,7 @@ Service Provider key definition:
 https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L37-L55  
   
 IDP metadata XML file: https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L75  
-IDP entityID: https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L75  
+IDP entityID: https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L90   
   
 Base URL:  
 https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L161  
