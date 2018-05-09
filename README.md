@@ -13,6 +13,8 @@ Testing instructions:
 Note: For a successful test, you will need to remove the ADMail attribute mapping, since TestShib does not return that attribute:  
 https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L185-L188  
 https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L191-L193  
+Or alternatively, swap the comments on these two lines to map uid from TestShib:  
+https://github.com/capitaltg/SAMLsample/blob/master/src/main/java/com/example/saml/userdetails/EmailUserDetails.java#L20-L21  
   
 **Files**
   
