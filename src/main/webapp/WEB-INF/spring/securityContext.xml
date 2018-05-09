@@ -196,7 +196,7 @@
 	<bean id="contextProvider"
 		class="org.springframework.security.saml.context.SAMLContextProviderLB">
 		<property name="scheme" value="http" />
-		<!-- CUSTOMIZE: replace with the domain of the applicaiton URL -->
+		<!-- CUSTOMIZE: replace with the domain of the application URL -->
 		<property name="serverName" value="www.example.com" />
 		<property name="serverPort" value="8080" />
 		<property name="includeServerPortInRequestURL" value="true" />
