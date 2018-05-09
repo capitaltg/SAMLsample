@@ -45,6 +45,9 @@ https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spri
 URLs to unprotect:  
 https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L18-L23  
   
+URLs to which to redirect for specific conditions:  
+https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L109-L131  
+  
 Service Provider key definition:
 https://github.com/capitaltg/SAMLsample/blob/master/src/main/webapp/WEB-INF/spring/securityContext.xml#L37-L55  
   
