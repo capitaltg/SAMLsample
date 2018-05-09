@@ -2,7 +2,15 @@
   
 A reference app that demonstrates combining Spring and Struts filters to SAML-enable a Struts application.  
   
-**Files**  
+Testing instructions:
+1. Add a definition to your hosts file for you localhost to be www.example.com
+2. Run the application on port 8080 with a context-root of SAMLsample
+3. Download the generated SP metadata from http://www.example.com:8080/SAMLsample/saml/metadata
+4. Rename the downloaded spring_saml_metadata.xml file to a unique/random name and upload it to . http://www.testshib.org/register.html  
+5. Go to http://www.example.com:8080/SAMLsample/ and click "Click Here to Login" (http://www.example.com:8080/SAMLsample/saml/login)  
+6. Login using one of the sample names.  
+  
+**Files**
   
 ```
 ./src/main/resources/struts.xml
